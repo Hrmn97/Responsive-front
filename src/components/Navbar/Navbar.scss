@@ -13,15 +13,36 @@
     z-index: 2;
 
 }
+.app__navbar-resume{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 30px;
+    width: 90px;
 
+    button{
+        border-radius: 5px;
+        height: 30px;
+        width: 90px;
+        background-color: var(--gray-color);
+        color: #fff;
+
+        cursor: pointer;
+
+        &:hover{
+            background-color: aliceblue;
+            color: black;
+        }
+    }
+}
 .app__navbar-logo {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 
     img{
-        width: 90px;
-        height: 20px;
+        width: 115px;
+        height: 40px;
 
         @media screen and (min-width: 2000px) {
             width: 180px;
@@ -36,7 +57,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 7rem;
+    margin-right: 2rem;
 
     list-style: none;
 
