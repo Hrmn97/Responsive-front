@@ -13,7 +13,7 @@ const SocialMedia = () => {
             <BsInstagram />
         </div>
         <div>
-            <FaFacebookF />
+            <FaFacebookF  />
         </div>
     </div>
   )
