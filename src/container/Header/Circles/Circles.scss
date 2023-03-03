@@ -1,0 +1,91 @@
+.app__circles{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    circle__a{
+        position: absolute;
+        border: 1px;
+        border-color: var( --secondary-color);
+        border-radius: 9999px;
+        height: 200px;
+        width: 200px;
+        animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+
+        @keyframes ping {
+        75%, 100% {
+            transform: scale(2);
+            opacity: 0;
+        }
+        }
+    }
+    circle__b{
+        position: absolute;
+        border: 1px;
+        border-color: var( --secondary-color);
+        border-radius: 9999px;
+        height: 300px;
+        width: 300px;
+        animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+
+        @keyframes ping {
+        75%, 100% {
+            transform: scale(2);
+            opacity: 0;
+        }
+        }
+    }
+    circle__c{
+        position: absolute;
+        border: 1px;
+        border-color: var( --secondary-color);
+        border-radius: 9999px;
+        height: 500px;
+        width: 500px;
+        animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+
+        @keyframes ping {
+        75%, 100% {
+            transform: scale(2);
+            opacity: 0;
+        }
+        }
+    }
+    circle__d{
+        position: absolute;
+        border: 1px;
+        border-color: var( --secondary-color);
+        border-radius: 9999px;
+        height: 650px;
+        width: 650px;
+        animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+        @keyframes pulse {
+          0%, 100% {
+            opacity: 1;
+          }
+          50% {
+            opacity: .5;
+          }
+        }
+    }
+    circle__e{
+        position: absolute;
+        border: 1px;
+        border-color: var( --secondary-color);
+        border-radius: 9999px;
+        height: 800px;
+        width: 800px;
+        animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+        @keyframes pulse {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: .5;
+        }
+        }
+    }
+}
